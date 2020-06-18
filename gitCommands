@@ -7,11 +7,28 @@ pull files from the master repo in Github:git pull origin master
 check the files are added to index and ready to commit:git status
 
 Add file(gitCommands.txt) to the index: git add gitCommands
+Add multiple files to index together: git add -A
 
-add/update local repo index: git commit -m "Adding the gitCommands file to GitHub"
+add/update index: git commit -m "Adding the gitCommands file to GitHub"
+add/update index:git commit -a -m "Adding all files together"
 
+check logs:git log
 
+create a new branch: git branch firstbranch
 
+switch to new branch: git checkout firstbranch
+
+add new files to the new branch: git add TestFile3.txt
+
+commit the new file to the new branch: git commit -m "Adding the TestFile3 to the new branch"
+
+list all files:ls
+
+move back to master branch:git checkout master
+
+Merge the new branch into master branch(You should be inside master branch):git merge firstbranch
+
+Note i can make more changes to firstbranch, it will not affect the master, until we merge with master
 
 
 
