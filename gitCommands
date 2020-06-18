@@ -1,0 +1,51 @@
+create repo:$ git init
+
+link to the repo in Github:git remote add origin "https://github.com/atanughosh85/git-github.git"
+
+pull files from the master repo in Github:git pull origin master
+
+check the files are added to index and ready to commit:git status
+
+Add file(gitCommands.txt) to the index: git add gitCommands
+
+add/update local repo index: git commit -m "Adding the gitCommands file to GitHub"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+push to master Github repo from local repo:
